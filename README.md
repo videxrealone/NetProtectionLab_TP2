@@ -51,9 +51,14 @@ we are also running a ping to **google.com**
 
 Using tcpdump to dump traffic in a file
 
+The "-w" option lets you write the output of tcpdump to a file which you can save for further analysis.
+
 ![image](https://user-images.githubusercontent.com/91763346/234412991-032409ee-06a6-4897-9508-83a30771b757.png)
 
 Using tcpdump to read pcap traffic from a file
+
+ The "-r" option lets you read the output of a file. All you have to do is use the "-r" option with tcpdump command and specify the path of the file you want to read.
+
 ```
 sudo tcpdump -r OUTPUT
 ```
